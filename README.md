@@ -1,5 +1,5 @@
-## YiShaAdmin
- YiShaAdmin 基于.NET Core Web开发，借鉴了很多开源项目的优点，让你开发Web管理系统和移动端Api更简单，所以我也把她开源了。
+## YiShaERP
+ YiShaERP 基于.NET Core Web开发，借鉴了很多开源项目的优点，让你开发Web管理系统和移动端Api更简单，所以我也把她开源了。
  她可以用于所有的Web应用程序，例如网站管理后台、CMS、CRM、ERP、OA这类的系统和移动端Api。<br />
  如果对你有帮助，请帮忙给个 star :)
  
@@ -20,9 +20,6 @@
 - 代码生成：快速生成对单表的增删改查
 - 服务器信息：查看服务器的基本信息
 
-## 在线体验
-1. 项目地址：[https://yishasoft.com/admin](https://yishasoft.com/admin)  
-2. 账号密码：admin 123456
 
 ## 开发文档
 
@@ -34,7 +31,3 @@
 ![登录进去首页](https://raw.githubusercontent.com/liukuo362573/YiShaAdmin/master/YiSha.Web/YiSha.Admin.Web/wwwroot/image/demo_2.png)
 ![用户列表](https://raw.githubusercontent.com/liukuo362573/YiShaAdmin/master/YiSha.Web/YiSha.Admin.Web/wwwroot/image/demo_3.png)
 ![用户列表修改](https://raw.githubusercontent.com/liukuo362573/YiShaAdmin/master/YiSha.Web/YiSha.Admin.Web/wwwroot/image/demo_4.png)
-
-## YiShaAdmin交流群
-
-QQ群1：428703155
