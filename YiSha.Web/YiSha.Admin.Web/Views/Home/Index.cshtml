@@ -45,8 +45,10 @@
                         </ul>
                     </div>
                 </li>
+                @*加载菜单列表 目前只支持三级菜单*@
                 @{
                     List<MenuEntity> menuList = ViewBag.MenuList;
+
                     foreach (MenuEntity menu in menuList.Where(p => p.ParentId == 0).OrderBy(p => p.MenuSort))
                     {
                         <li>

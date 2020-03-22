@@ -13,25 +13,7 @@
 }
 <div class="login-panel">
     <div class="row section">
-        @*<div class="col-sm-7">
-                <div class="login-info">
-                    <div class="logopanel m-b">
-                        <h1><img alt="[软件]" src="~/Content/image/logo.png" height="45"></h1>
-                    </div>
-                    <div class="m-b"></div>
-                    <span>欢迎使用 YiSha ERP </span>
-                    <ul class="m-b">
-                        <li><i class="fa fa-arrow-circle-o-right m-r-xs"></i> jQuery and Bootstrap</li>
-                        <li><i class="fa fa-arrow-circle-o-right m-r-xs"></i> ASP.NET MVC</li>
-                        <li><i class="fa fa-arrow-circle-o-right m-r-xs"></i> ASP.NET Web API</li>
-                        <li><i class="fa fa-arrow-circle-o-right m-r-xs"></i> Redis</li>
-                        <li><i class="fa fa-arrow-circle-o-right m-r-xs"></i> .NET Framework 4.5</li>
-                        <li><i class="fa fa-arrow-circle-o-right m-r-xs"></i> Entity Framework</li>
-                        <li><i class="fa fa-arrow-circle-o-right m-r-xs"></i> 支持Sql Server,MySql,Oracle</li>
-                    </ul>
-                    <strong>还没有账号？ <a href="#">立即注册&raquo;</a></strong>
-                </div>
-            </div>*@
+
         <div class="col-sm-12">
             <form id="form">
                 <h4 class="no-margin">登录：</h4>
@@ -101,7 +83,11 @@
     });
 
     function loginForm() {
+
+        //保存时校验 检验是否form提交 来自 jquery.validate.js
         if ($("#form").validate().form()) {
+
+            //这个是 yisha-plugin.js中封装好的方法
             var postData = $("#form").getWebControls();
 
             ys.ajax({

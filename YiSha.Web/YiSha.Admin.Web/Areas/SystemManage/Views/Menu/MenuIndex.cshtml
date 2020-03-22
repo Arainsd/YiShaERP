@@ -46,6 +46,7 @@
         $("#menuStatus").ysComboBox({ data: ys.getJson(@Html.Raw(typeof(StatusEnum).EnumToDictionaryString())) });
     });
 
+    //获取菜单列表信息
     function initTreeGrid() {
         var options = {
             code: "Id",
